@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Модальное окно -->
+    <div
+      class="popup"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+      <div class="popup__block">
+        <div class="popup__block-left">
+          <div class="popup__left-bg">
+            <h1 class="popup__left-title">ПОШАГО-ВЫЙ ПЛАН</h1>
+            <img src="./assets/img/Ellipse.svg" alt="" class="popup__ellipse" />
+            <img src="./assets/img/Vector.svg" alt="" class="popup__vector" />
+            <div class="left__bg-wrapper">
+              <img
+                src="./assets/img/image.png"
+                alt="image"
+                class="left__bg-img" />
+            </div>
+          </div>
+        </div>
+        <div class="popup__block-right">
+          <div class="container__popup-right">
+            <h1 class="popup__right-title">мастер-класс?</h1>
+            <p class="popup__right-text">Скачайте пошаговый план</p>
+            <h3 class="popup__right-quotes">
+              «Как собственнику выйти из операционки»
+            </h3>
+            <p class="popup__right-text">
+              и познакомьтесь с этим инструментом <span>прямо сейчас</span>
+            </p>
+            <h6 class="text__popup">
+              10 шагов помогут создать системный бизнес
+            </h6>
+            <div class="popup__login">
+              <form action="">
+                <p class="popup__login-title">
+                  Для получения бонуса введите email
+                </p>
+                <input
+                  type="text"
+                  class="popup__login-inp"
+                  placeholder="Ваш e-mail"
+                  name="email"
+                  required />
+                <button class="popup__login-btn">Скачать пошаговой план</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
